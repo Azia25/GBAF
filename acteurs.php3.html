@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GBAF - Dsa France</title>
+    <link rel="stylesheet" href="../fontawesome5/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body class="connecter">
+    <header>
+      <a href="INDEX.HTML"><img src="../GBAF/images/logo gbaf.png" alt="GBAF"></a>
+      <ul class="head_ul alert bg-dark">
+        <li class="text-white"><i class="fas fa-user"></i> Mazerti Fabiola</li>
+        <li><a href="parametres.php?account=44" class="text-white"><i class="fas fa-cog"></i>Paramètres du compte</a></li>
+        <li class="text-white"><a href="deconnexion.php" class="text-white"><i class="fas fa-university"></i>Deconnexion</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="card mb-3 border-primary">
+        <div class="flex_principal_acteur">
+          <div class="center">
+            <img src="../GBAF/images/logo Dsa_france.png" alt="Dsa_france">
+          </div>
+          <div class="card-body-text">
+            <h3 class="card-title center">Dsa France</h3>
+            <p class="card-text">Dsa France accélère la croissance du territoire et s’engage avec les collectivités territoriales.<br>
+Nous accompagnons les entreprises dans les étapes clés de leur évolution.<br><br>
+Notre philosophie : s’adapter à chaque entreprise.<br>
+Nous les accompagnons pour voir plus grand et plus loin et proposons des solutions de financement adaptées à chaque étape de la vie des entreprises.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card border-primary mb-3">
+        <div class="card-header">Commentaires <small class="form-text text-muted">(1 commentaire et 1 vote par acteur).</small></div>
+                <div class="card-body">
+          <div class="comments">
+            <a href="new_comment_acteurs.php?acteurs=3" class="btn btn-primary">Nouveau commentaire</a>
+            <input type="hidden" name="acteurs" value="3">
+            <section class="like_dislike">
+                            <div class="hand">
+                                <p>0</p>
+                <form class="" action="valid_vote_like.php" method="post">
+                  <button class="like" type="submit" name="like"><i class="fas fa-thumbs-up" style="color:black"></i></button>
+                  <input type="hidden" name="acteurs" value="3">
+                </form>
+              </div>
+              <div class="hand">
+                <p>1</p>
+                <form class="" action="valid_vote_dislike.php" method="post">
+                  <button class="dislike" type="submit" name="dislike"><i class="fas fa-thumbs-down" style="color:red"></i></button>
+                  <input type="hidden" name="acteurs" value="3">
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+                <div class="new_comment">
+          <p>
+            leader le
+            01-06-2022          </p>
+          <div class="alert alert-dismissible alert-secondary">
+            <p>ok</p>
+          </div>
+        </div>
+                <div class="new_comment">
+          <p>
+            Thomas le
+            14-12-2019          </p>
+          <div class="alert alert-dismissible alert-secondary">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla diam in turpis pellentesque suscipit. Curabitur maximus nisl non felis sollicitudin, ac faucibus leo tempor. Vestibulum commodo mi non ornare tincidunt. Nullam eu laoreet ante. Praesent venenatis nulla sed sapien efficitur, a tincidunt sapien tempus. Mauris vulputate elit quis lorem blandit pulvinar. Pellentesque a dictum risus, vel porta urna. </p>
+          </div>
+        </div>
+              </div>
+      <div class="center">
+        <a href="index.php" class="btn btn-link">Retour</a>
+      </div>
+      <div class="push"></div>
+    </main>
+    
+    <footer>
+      <ul class="bg-dark text-white">
+        <li><a href="mentionslegales.php" class="text-white btn btn-outline-primary">Mentions légales</a></li>
+        <li><a href="sitefictif.php" class="text-white btn btn-outline-primary">sitefictif</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
