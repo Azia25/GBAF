@@ -15,7 +15,7 @@
       <a href="INDEX.HTML"><img src="../GBAF/images/logo gbaf.png" alt="GBAF"></a>
       <ul class="head_ul alert bg-dark">
         <li class="text-white">Nom/Prénom</li>
-        <li><a href="parametres.php?account=44" class="text-white">Paramètres du compte</a></li>
+        <li><a href="parametres.php?" class="text-white">Paramètres du compte</a></li>
         <li class="text-white"><a href="deconnexion.php" class="text-white">Deconnexion</a></li>
       </ul>
     </header>

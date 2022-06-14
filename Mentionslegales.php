@@ -20,8 +20,8 @@
         <div class="card-body">
           <p class="card-title">Les données personnelles sécurisées figurant sur ce site internet concernent les utilisateurs. GBAF ne collecte aucune donnée personnelle directement sur le site internet, ni cookie.</p>
           <p class="card-text">Les utilisateurs ne peuvent accéder qu'aux seules informations les concernants.</p>
-          <p class="card-text">Pour optimiser la confidentialité de vos consultations, nous vous conseillons de choisir un mot de passe sécurisé composé de majuscules, minuscules, chiffres, caractères spéciaux.</p>
-          <p class="card-text">Toute personne pourra exercer ses droits de retrait, de rectification ou de portabilité des données la concernant dans le cadre de la RGPD, en s'adressant à l'administrateur du site via la page de contact</p>
+          <p class="card-text">Pour optimiser la confidentialité de vos consultations, nous vous conseillons de choisir un mot de passe sécurisé composé de majuscules, minuscules, chiffres et/ou caractères spéciaux.</p>
+          <p class="card-text">Toute personne pourra exercer ses droits de retrait, de rectification ou de portabilité des données la concernant dans le cadre de la RGPD, en s'adressant à l'administrateur du site, sur la page d'accueil/nous contacter</p>
         </div>
         <div class="center">
           <a class="btn btn-primary" href="index.php">Retour</a>
@@ -29,7 +29,7 @@
       </div>
     </main>
     <footer>
-      <ul class="bg-dark text-white">
+      <ul class="center">
         <li><a href="mentionslegales.php" class="text-white btn btn-outline-primary">Mentions légales</a></li>
         <li><a href="sitefictif.php" class="text-white btn btn-outline-primary">site fictif</a></li>
       </ul>
