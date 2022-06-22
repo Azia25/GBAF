@@ -14,20 +14,22 @@
     <header>
       <a href="INDEX.HTML"><img src="GBAF/images/logo gbaf.png" alt="GBAF"></a>
     </header>
+
     <main>
-      <div class="card border-primary mb-3">
-        <div class="card-header">Mentions légales</div>
+      <section class="card border-primary mb-3">
+        <section class="card-header">Mentions légales</section>
         <div class="card-body">
           <p class="card-title">Les données personnelles sécurisées figurant sur ce site internet concernent les utilisateurs. GBAF ne collecte aucune donnée personnelle directement sur le site internet, ni cookie.</p>
           <p class="card-text">Les utilisateurs ne peuvent accéder qu'aux seules informations les concernants.</p>
           <p class="card-text">Pour optimiser la confidentialité de vos consultations, nous vous conseillons de choisir un mot de passe sécurisé composé de majuscules, minuscules, chiffres et/ou caractères spéciaux.</p>
-          <p class="card-text">Toute personne pourra exercer ses droits de retrait, de rectification ou de portabilité des données la concernant dans le cadre de la RGPD, en s'adressant à l'administrateur du site, sur la page d'accueil/nous contacter</p>
+          <p class="card-text">Toute personne pourra exercer ses droits de retrait, de rectification ou de portabilité des données la concernant dans le cadre de la RGPD, en s'adressant à l'administrateur du site.</p>
         </div>
         <div class="center">
           <a class="btn btn-primary" href="index.php">Retour</a>
         </div>
-      </div>
+      </section>
     </main>
+
     <footer>
       <ul class="center">
         <li><a href="mentionslegales.php" class="text-white btn btn-outline-primary">Mentions légales</a></li>

@@ -1,0 +1,33 @@
+<?php
+// Souvent on identifie cet objet par la variable $conn ou $db
+$mysqlConnection = new PDO(
+    'mysql:host=localhost;dbname=compte_users;charset=utf8',
+    'root',
+    'root'
+);
+?>
+
+<?php
+
+$mysqlConnection = new PDO(
+    'mysql :host=localhost;dbname=partenaires_gbaf;charset=utf8',
+    'root',
+    'root',
+);
+?>
+
+<?php
+$mysqlConnection = new PDO(
+    'mysql :host=localhost;dbname=post_comment;charset=utf8',
+    'root',
+    'root',
+);
+?>
+
+<?php
+$mysqlConnection = new PDO(
+    'mysql :host=localhost;dbname=vote_comment;charset=utf8',
+    'root',
+    'root',
+);
+?>
