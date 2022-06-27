@@ -39,19 +39,13 @@
 
       <section>
         <h2>Textes acteurs et partenaires</h2>
-          <div class="card mb-3 border-primary">
-          <div class="flex_acteurs">
-          <div class="center">
-            <a href="acteurs.php1.html"><img src="../GBAF/images/logo formation_co.png"alt="formation_co"></a>
-          </div>
-          <div class="card-body-text">
-            <h3 class="card-title">Formation&co</h3>
-            <p class="card-text">Formation&co est une association française présente...</p>
-          </div>
-          </div>
-          <div class="link">
-            <a href="acteurs.php1.html" class="btn btn-link">lire la suite</a>
-          </div>
+
+        <?php foreach 
+          $acteur, <gbaf class="sql">acteur</gbaf> 
+          if(!empty($title))
+            
+        ?>
+          
       </section>
 
       <section class="card mb-3 border-primary">
@@ -107,8 +101,12 @@
       <footer>
         <ul class="bg-dark text-white">
           <li><a href="mentionslegales.php" class="text-white btn btn-outline-primary">Mentions légales</a></li>
-          <li><a href="sitefictif" class="text-white btn btn-outline-primary">Site fictif</a></li>
+          <li><a href="sitefictif.php" class="text-white btn btn-outline-primary">Site fictif</a></li>
         </ul>
       </footer>
     </body>
   </html>
+  
+  <?php
+  require_once('include/footer.php');
+  ?>
